@@ -1,0 +1,105 @@
+body {
+	
+}
+
+/*********************头部样式*******************/
+header .item img{
+	width:100%;
+	margin: 0 auto;
+}
+
+
+
+/*********************内容样式*************/
+.tab-content .thumbnail .img-wrap{
+	width: 35%;
+	height: 100%;
+	float: left;
+	padding: 9px 0;
+}
+
+.tab-content .thumbnail .img-wrap img{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.tab-content .thumbnail .caption{
+	width: 65%;
+	float: right;
+	padding-right: 0 !important;
+}
+
+.tab-content .thumbnail .caption .first-line {
+	
+}
+.tab-content .thumbnail .caption .first-line *{
+	display: inline-block;
+}
+.tab-content .thumbnail .caption .first-line b{
+	font-size: 20px;
+}
+.tab-content .thumbnail .caption .first-line a{
+	padding-left: 10px;
+	padding-right: 15px;
+}
+.tab-content .thumbnail .caption .first-line div>em{
+	padding-right: 5px;
+}
+
+.tab-content .thumbnail .caption .second-line{
+	padding: 5px 0;
+}
+
+.tab-content .thumbnail .caption .second-line div{
+	width: 40%;
+	display: inline-block;
+}
+
+/*******************底部悬浮条样式***********************/
+footer>div{
+	height:40px;
+	line-height: 40px;
+	width: 100%;
+	opacity: 0.7; 
+	background: black;
+	color: wheat;
+}
+
+footer button{
+	margin-top:3px;
+}
+footer .navbar-fixed-bottom>div{
+	display: inline-table;
+}
+#menu_ordered_count{
+	left: 90px;
+}
+#menu_ordered_sum{
+	right: 80px;
+}
+footer .footer-bar{
+	position: absolute;
+}
+
+
+/****************************************************/
+.menu-ordered{
+	display: none;
+	position: absolute;
+	width: auto;
+	top:300px;
+	background: white;
+	padding: 10px;
+	margin: auto;
+	left:10px;
+	right:10px;
+}
+
+#menu_ordered{
+	display: none;
+	position: absolute;
+	margin: auto;
+	left:20px;
+	right:20px;
+	top:300px;
+}

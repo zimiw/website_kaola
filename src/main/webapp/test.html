@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test websocket</title>
+</head>
+<body>
+<button onclick='add();'>click me</button>
+</body>
+<script src='jquery-1.11.3/jquery-1.11.3.min.js'></script>
+<script>
+	function add(){
+		$.ajax({
+			url:"getCategory.action",
+			dataType:"json",
+			data:'',
+			success: function(data){
+				
+			},
+			error: function(msg){
+				alert( "Ajax跳转处理失败");
+			}
+		});
+	}
+</script>
+</html>

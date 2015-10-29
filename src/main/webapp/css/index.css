@@ -1,0 +1,50 @@
+section .tab-content .container{
+	/*height: 150px;*/
+}
+section .tab-content .thumbnail{
+	line-height: 100%;
+}
+section .tab-content .thumbnail .imgwrap{
+	/*width: 35%;
+	height: 100%;
+	position: relative;
+	display: inline-table;
+	vertical-align: middle;*/
+	display: box;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+}
+section .tab-content .thumbnail img{
+	/*position: relative;
+	width:38.2%;
+	border-radius: 4px; 
+	float: left;
+	margin-top: 30px;*/
+	height: 50px;;
+	border-radius: 4px; 
+	-moz-box-align: center;
+	-webkit-box-align: center;
+}
+
+section .tab-content .thumbnail .caption{
+	/*width: 61%;
+	height: 100%;
+	float: right;*/
+	position: relative;
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+}
+
+section .tab-content .thumbnail .caption .first-line{
+	
+}
+section .tab-content .thumbnail .caption .first-line b{
+	font-size: 18px;
+}
+section .tab-content .thumbnail .caption .second-line{
+	
+}
+section .tab-content .thumbnail .caption .third-line{
+	
+}
